@@ -38,7 +38,9 @@ export function HeroSection() {
             Adicionar ao Discord
           </a>
           <a
-            href="#"
+            href="https://discord.gg/wUMdFV28XP"
+            target="_blank"
+            rel="noopener noreferrer"
             className="w-full sm:w-auto px-8 py-4 glass rounded-xl font-semibold text-lg transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2"
           >
             <Users className="w-5 h-5" />
