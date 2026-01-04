@@ -4,7 +4,7 @@ const features = [
   {
     icon: Terminal,
     title: "Comandos Interativos",
-    description: "Use /menu para acessar todos os comandos disponíveis de forma simples e intuitiva.",
+    description: "Use !menu para acessar todos os comandos disponíveis de forma simples e intuitiva.",
   },
   {
     icon: Code2,
