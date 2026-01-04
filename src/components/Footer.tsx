@@ -17,16 +17,11 @@ export function Footer() {
         </div>
 
         {/* Links */}
-        <div className="flex items-center gap-6 text-sm text-muted-foreground">
-          <a href="#" className="hover:text-foreground transition-colors">Suporte</a>
-          <a href="#" className="hover:text-foreground transition-colors">Documentação</a>
-          <a href="#" className="hover:text-foreground transition-colors">Termos</a>
-          <a href="#" className="hover:text-foreground transition-colors">Privacidade</a>
-        </div>
+        
 
         {/* Copyright & Credits */}
-        <div className="text-sm text-muted-foreground text-center md:text-right">
-          <p>© 2024 OverhandBot. Todos os direitos reservados.</p>
+        <div className="text-sm text-muted-foreground text-center md:text-center">
+          <p>© 2026 OverhandBot. Todos os direitos reservados.</p>
           <p>
             Desenvolvido por{" "}
             <a 
