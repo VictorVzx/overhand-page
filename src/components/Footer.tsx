@@ -24,10 +24,21 @@ export function Footer() {
           <a href="#" className="hover:text-foreground transition-colors">Privacidade</a>
         </div>
 
-        {/* Copyright */}
-        <p className="text-sm text-muted-foreground">
-          © 2024 OverhandBot. Todos os direitos reservados.
-        </p>
+        {/* Copyright & Credits */}
+        <div className="text-sm text-muted-foreground text-center md:text-right">
+          <p>© 2024 OverhandBot. Todos os direitos reservados.</p>
+          <p>
+            Desenvolvido por{" "}
+            <a 
+              href="https://github.com/VictorVzx" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-primary hover:underline transition-colors"
+            >
+              VictorVzx
+            </a>
+          </p>
+        </div>
       </div>
     </footer>
   );
