@@ -35,7 +35,7 @@ export function Navbar({ onMenuClick }: NavbarProps) {
           <div className="hidden md:flex items-center gap-4">
             <ThemeToggle />
             <a
-              href="#"
+              href="https://discord.com/oauth2/authorize?client_id=1440503826917363772&permissions=8&integration_type=0&scope=bot"
               className="btn-glow px-6 py-2.5 bg-primary text-primary-foreground rounded-xl font-medium transition-all duration-300 hover:opacity-90"
             >
               Adicionar Bot
