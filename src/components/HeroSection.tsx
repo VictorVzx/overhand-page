@@ -1,4 +1,4 @@
-import { Sparkles, Zap, Shield } from "lucide-react";
+import { Sparkles, Zap, Terminal } from "lucide-react";
 
 export function HeroSection() {
   return (
@@ -12,20 +12,20 @@ export function HeroSection() {
         {/* Badge */}
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass mb-8 animate-slide-up">
           <Sparkles className="w-4 h-4 text-primary" />
-          <span className="text-sm font-medium">O melhor bot para seu servidor</span>
+          <span className="text-sm font-medium">Projeto de aprendizado em Python</span>
         </div>
 
         {/* Main Heading */}
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold mb-6 animate-slide-up" style={{ animationDelay: "0.1s" }}>
-          Potencialize seu servidor
+          Conheça o
           <br />
-          <span className="gradient-text">Discord</span>
+          <span className="gradient-text">OverhandBot</span>
         </h1>
 
         {/* Description */}
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 animate-slide-up" style={{ animationDelay: "0.2s" }}>
-          Moderação avançada, música de qualidade, economia divertida e muito mais.
-          Tudo em um único bot poderoso e fácil de usar.
+          Um bot simples desenvolvido com o intuito de aprender mais sobre Python.
+          Use o comando <code className="px-2 py-1 rounded-lg bg-primary/10 text-primary font-mono">/menu</code> para explorar os comandos interativos.
         </p>
 
         {/* CTA Buttons */}
@@ -38,27 +38,33 @@ export function HeroSection() {
             Adicionar ao Discord
           </a>
           <a
-            href="#features"
+            href="#commands"
             className="w-full sm:w-auto px-8 py-4 glass rounded-xl font-semibold text-lg transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2"
           >
-            <Shield className="w-5 h-5" />
-            Ver Recursos
+            <Terminal className="w-5 h-5" />
+            Ver Comandos
           </a>
         </div>
 
-        {/* Stats */}
-        <div className="grid grid-cols-3 gap-4 md:gap-8 mt-16 animate-slide-up" style={{ animationDelay: "0.4s" }}>
-          <div className="glass-card text-center">
-            <div className="text-2xl md:text-4xl font-bold gradient-text">10K+</div>
-            <div className="text-sm md:text-base text-muted-foreground mt-1">Servidores</div>
-          </div>
-          <div className="glass-card text-center">
-            <div className="text-2xl md:text-4xl font-bold gradient-text">500K+</div>
-            <div className="text-sm md:text-base text-muted-foreground mt-1">Usuários</div>
-          </div>
-          <div className="glass-card text-center">
-            <div className="text-2xl md:text-4xl font-bold gradient-text">99.9%</div>
-            <div className="text-sm md:text-base text-muted-foreground mt-1">Uptime</div>
+        {/* Command Preview */}
+        <div className="mt-16 animate-slide-up" style={{ animationDelay: "0.4s" }}>
+          <div className="glass-card max-w-md mx-auto text-left">
+            <div className="flex items-center gap-2 mb-3">
+              <div className="w-3 h-3 rounded-full bg-destructive/60" />
+              <div className="w-3 h-3 rounded-full bg-yellow-500/60" />
+              <div className="w-3 h-3 rounded-full bg-green-500/60" />
+            </div>
+            <div className="font-mono text-sm space-y-2">
+              <p className="text-muted-foreground">
+                <span className="text-primary">&gt;</span> /menu
+              </p>
+              <p className="text-foreground/80">
+                📋 Menu de Comandos Interativos
+              </p>
+              <p className="text-muted-foreground text-xs">
+                Selecione uma opção abaixo...
+              </p>
+            </div>
           </div>
         </div>
       </div>

@@ -26,14 +26,8 @@ export function Navbar({ onMenuClick }: NavbarProps) {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
-            <a href="#features" className="text-muted-foreground hover:text-foreground transition-colors">
-              Recursos
-            </a>
             <a href="#commands" className="text-muted-foreground hover:text-foreground transition-colors">
-              Comandos
-            </a>
-            <a href="#stats" className="text-muted-foreground hover:text-foreground transition-colors">
-              Estatísticas
+              Sobre
             </a>
           </div>
 
