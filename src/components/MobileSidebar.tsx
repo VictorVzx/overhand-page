@@ -49,25 +49,11 @@ export function MobileSidebar({ isOpen, onClose }: MobileSidebarProps) {
         {/* Navigation Links */}
         <nav className="flex flex-col gap-2">
           <a
-            href="#features"
-            onClick={onClose}
-            className="px-4 py-3 rounded-xl hover:bg-secondary transition-colors"
-          >
-            Recursos
-          </a>
-          <a
             href="#commands"
             onClick={onClose}
             className="px-4 py-3 rounded-xl hover:bg-secondary transition-colors"
           >
-            Comandos
-          </a>
-          <a
-            href="#stats"
-            onClick={onClose}
-            className="px-4 py-3 rounded-xl hover:bg-secondary transition-colors"
-          >
-            Estatísticas
+            Sobre
           </a>
         </nav>
 

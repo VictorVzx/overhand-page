@@ -10,10 +10,10 @@ export function CTASection() {
           
           <div className="relative z-10">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Pronto para começar?
+              Quer testar?
             </h2>
             <p className="text-lg text-muted-foreground mb-8 max-w-xl mx-auto">
-              Adicione o bot ao seu servidor agora mesmo e descubra todas as funcionalidades incríveis que preparamos para você.
+              Adicione o OverhandBot ao seu servidor e explore os comandos interativos usando <code className="px-2 py-1 rounded-lg bg-primary/10 text-primary font-mono">/menu</code>.
             </p>
             <a
               href="#"
