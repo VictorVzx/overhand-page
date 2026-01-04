@@ -1,4 +1,4 @@
-import { Sparkles, Zap, Terminal } from "lucide-react";
+import { Sparkles, Zap, Users } from "lucide-react";
 
 export function HeroSection() {
   return (
@@ -38,11 +38,11 @@ export function HeroSection() {
             Adicionar ao Discord
           </a>
           <a
-            href="#commands"
+            href="#"
             className="w-full sm:w-auto px-8 py-4 glass rounded-xl font-semibold text-lg transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2"
           >
-            <Terminal className="w-5 h-5" />
-            Ver Comandos
+            <Users className="w-5 h-5" />
+            Entrar no Servidor
           </a>
         </div>
 
