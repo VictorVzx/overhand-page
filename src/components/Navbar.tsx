@@ -11,7 +11,7 @@ export function Navbar({ onMenuClick }: NavbarProps) {
       <nav className="glass mx-4 mt-4 rounded-2xl px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center gap-3">
+          <a href="#" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }} className="flex items-center gap-3 cursor-pointer">
             <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center">
               <svg
                 viewBox="0 0 24 24"
@@ -22,7 +22,7 @@ export function Navbar({ onMenuClick }: NavbarProps) {
               </svg>
             </div>
             <span className="text-xl font-bold">OverhandBot</span>
-          </div>
+          </a>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
