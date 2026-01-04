@@ -25,7 +25,7 @@ export function HeroSection() {
         {/* Description */}
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 animate-slide-up" style={{ animationDelay: "0.2s" }}>
           Um bot simples desenvolvido com o intuito de aprender mais sobre Python.
-          Use o comando <code className="px-2 py-1 rounded-lg bg-primary/10 text-primary font-mono">/menu</code> para explorar os comandos interativos.
+          Use o comando <code className="px-2 py-1 rounded-lg bg-primary/10 text-primary font-mono">!menu</code> para explorar os comandos interativos.
         </p>
 
         {/* CTA Buttons */}
@@ -56,7 +56,7 @@ export function HeroSection() {
             </div>
             <div className="font-mono text-sm space-y-2">
               <p className="text-muted-foreground">
-                <span className="text-primary">&gt;</span> /menu
+                <span className="text-primary">&gt;</span> !menu
               </p>
               <p className="text-foreground/80">
                 📋 Menu de Comandos Interativos

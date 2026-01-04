@@ -13,7 +13,7 @@ export function CTASection() {
               Quer testar?
             </h2>
             <p className="text-lg text-muted-foreground mb-8 max-w-xl mx-auto">
-              Adicione o OverhandBot ao seu servidor e explore os comandos interativos usando <code className="px-2 py-1 rounded-lg bg-primary/10 text-primary font-mono">/menu</code>.
+              Adicione o OverhandBot ao seu servidor e explore os comandos interativos usando <code className="px-2 py-1 rounded-lg bg-primary/10 text-primary font-mono">!menu</code>.
             </p>
             <a
               href="#"
