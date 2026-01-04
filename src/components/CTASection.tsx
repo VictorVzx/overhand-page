@@ -16,7 +16,9 @@ export function CTASection() {
               Adicione o OverhandBot ao seu servidor e explore os comandos interativos usando <code className="px-2 py-1 rounded-lg bg-primary/10 text-primary font-mono">!menu</code>.
             </p>
             <a
-              href="#"
+              href="https://discord.com/oauth2/authorize?client_id=1440503826917363772&permissions=8&integration_type=0&scope=bot"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 btn-glow px-8 py-4 bg-primary text-primary-foreground rounded-xl font-semibold text-lg transition-all duration-300 hover:scale-105"
             >
               Adicionar ao Discord

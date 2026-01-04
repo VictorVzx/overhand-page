@@ -31,7 +31,9 @@ export function HeroSection() {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-slide-up" style={{ animationDelay: "0.3s" }}>
           <a
-            href="#"
+            href="https://discord.com/oauth2/authorize?client_id=1440503826917363772&permissions=8&integration_type=0&scope=bot"
+            target="_blank"
+            rel="noopener noreferrer"
             className="btn-glow w-full sm:w-auto px-8 py-4 bg-primary text-primary-foreground rounded-xl font-semibold text-lg transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2"
           >
             <Zap className="w-5 h-5" />
