@@ -10,7 +10,7 @@ In case you want to edit the code or change something, follow this steps:
 In your vscode terminal
 > git init
 
-> git clone <https://github.com/VictorVzx/discord-glow-landing.git>
+> git clone <https://github.com/VictorVzx/overhand-page.git>
 
 To install the dependencies:
 
