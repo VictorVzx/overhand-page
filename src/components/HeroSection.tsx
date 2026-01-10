@@ -2,7 +2,7 @@ import { Sparkles, Zap, Users } from "lucide-react";
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center pt-24 pb-16 px-4 overflow-hidden">
+    <section className="relative min-h-dvh flex items-center justify-center pt-24 pb-16 px-4 overflow-hidden">
       {/* Background Effects */}
       <div className="absolute inset-0 gradient-bg" />
       <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/20 rounded-full blur-3xl animate-pulse-slow" />

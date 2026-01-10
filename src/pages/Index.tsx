@@ -10,7 +10,7 @@ const Index = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
-    <div className="min-h-screen gradient-bg">
+    <div className="min-h-dvh gradient-bg">
       <Navbar onMenuClick={() => setSidebarOpen(true)} />
       <MobileSidebar isOpen={sidebarOpen} onClose={() => setSidebarOpen(false)} />
       
